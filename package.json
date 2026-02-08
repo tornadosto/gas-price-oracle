@@ -17,8 +17,7 @@
     "eslint": "eslint 'src/*.ts'",
     "prettier:check": "prettier --check . --config .prettierrc",
     "prettier:fix": "prettier --write . --config .prettierrc",
-    "lint": "yarn eslint && yarn prettier:check",
-    "prepare": "yarn build && yarn build:esm"
+    "lint": "yarn eslint && yarn prettier:check"
   },
   "author": "Alexey Pertsev <alexey@peppersec.com> (https://peppersec.com)",
   "keywords": [

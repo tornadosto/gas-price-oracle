@@ -8,7 +8,7 @@
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://codeberg.org/torndao/gas-price-oracle"
+    "url": "https://github.com/tornadosto/gas-price-oracle.git"
   },
   "scripts": {
     "test": "ts-mocha --timeout 30000 --paths 'src/tests/*.test.ts'",
